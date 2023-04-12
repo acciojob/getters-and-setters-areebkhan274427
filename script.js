@@ -10,18 +10,17 @@ class Person {
 	set SetAge(age){
 		this.age=age;
 	}
-	
 }
 
 class Student extends Person {
 	study(){
-		console.log(`${this.name} is studying`)
+		console.log(`${this.getName} is studying`)
 	}
 }
 
 class Teacher extends Person {
 	teach(){
-		console.log(`${this.name} is teaching`)
+		console.log(`${this.getName} is teaching`)
 	}
 }
 
